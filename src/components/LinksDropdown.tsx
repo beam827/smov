@@ -167,7 +167,6 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               href={conf().DISCORD_LINK}
               icon={Icons.DISCORD}
             />
-            <CircleDropdownLink href={conf().GITHUB_LINK} icon={Icons.GITHUB} />
             <CircleDropdownLink
               href={conf().TWITTER_LINK}
               icon={Icons.TWITTER}
