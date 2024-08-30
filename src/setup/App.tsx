@@ -22,6 +22,7 @@ import { NotFoundPage } from "@/pages/errors/NotFoundPage";
 import { HomePage } from "@/pages/HomePage";
 import { JipPage } from "@/pages/Jip";
 import { LoginPage } from "@/pages/Login";
+import { DonatePage } from "@/pages/Donate";
 import { OnboardingPage } from "@/pages/onboarding/Onboarding";
 import { OnboardingExtensionPage } from "@/pages/onboarding/OnboardingExtension";
 import { OnboardingProxyPage } from "@/pages/onboarding/OnboardingProxy";
@@ -140,6 +141,7 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/donate" component={<DonatePage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route
             path="/onboarding/extension"

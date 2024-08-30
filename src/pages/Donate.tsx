@@ -13,7 +13,7 @@ export function shouldHaveDmcaPage() {
   return !!conf().DMCA_EMAIL;
 }
 
-export function Donate() {
+export function DonatePage() {
   const { t } = useTranslation();
   const [isHovered, setIsHovered] = useState(false);
 
