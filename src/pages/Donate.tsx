@@ -12,7 +12,6 @@ export function shouldHaveDmcaPage() {
 }
 
 export function DonatePage() {
-
   return (
     <SubPageLayout>
       <PageTitle subpage k="global.pages.dmca" />

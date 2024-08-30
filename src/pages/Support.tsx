@@ -7,7 +7,6 @@ import { ThinContainer } from "@/components/layout/ThinContainer";
 import { MwLink } from "@/components/text/Link";
 import { Heading1, Paragraph } from "@/components/utils/Text";
 import { PageTitle } from "@/pages/parts/util/PageTitle";
-import { conf } from "@/setup/config";
 
 import { SubPageLayout } from "./layouts/SubPageLayout";
 
@@ -83,7 +82,7 @@ export function SupportPage() {
         <Paragraph className="flex space-x-3 items-center">
           <Icon icon={Icons.MAIL} />
           <a
-            href={`mailto:support@reelo.to`}
+            href="mailto:support@reelo.to"
             style={{
               transition: "color 0.3s ease",
               color: isHovered ? "#cfcfcf" : "inherit",
