@@ -122,7 +122,6 @@ export function SidebarPart() {
               </SidebarLink>
             ))}
           </SidebarSection>
-          <Divider />
         </div>
       </Sticky>
     </div>
