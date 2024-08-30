@@ -111,10 +111,7 @@ export function PlayerPart(props: PlayerPartProps) {
             ) : null}
             {status === playerStatus.PLAYBACK_ERROR ||
             status === playerStatus.PLAYING ? (
-              <>
-                <Player.Captions />
-                <Player.Settings />
-              </>
+              <Player.Settings />
             ) : null}
             <Player.Fullscreen />
           </div>
