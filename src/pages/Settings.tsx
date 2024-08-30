@@ -27,6 +27,7 @@ import { CaptionsPart } from "@/pages/parts/settings/CaptionsPart";
 import { ConnectionsPart } from "@/pages/parts/settings/ConnectionsPart";
 import { DeviceListPart } from "@/pages/parts/settings/DeviceListPart";
 import { RegisterCalloutPart } from "@/pages/parts/settings/RegisterCalloutPart";
+import { SidebarPart } from "@/pages/parts/settings/SidebarPart";
 import { ThemePart } from "@/pages/parts/settings/ThemePart";
 import { PageTitle } from "@/pages/parts/util/PageTitle";
 import { AccountWithToken, useAuthStore } from "@/stores/auth";
@@ -49,6 +50,7 @@ function SettingsLayout(props: { children: React.ReactNode }) {
           isMobile ? "grid-cols-1" : "lg:grid-cols-[280px,1fr]",
         )}
       >
+        <SidebarPart />
         <div>{props.children}</div>
       </div>
     </WideContainer>
