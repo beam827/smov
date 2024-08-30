@@ -41,7 +41,6 @@ export function SidebarPart() {
     },
   ];
 
-
   useEffect(() => {
     function recheck() {
       const windowHeight =
