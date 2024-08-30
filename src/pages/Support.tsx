@@ -11,27 +11,6 @@ import { conf } from "@/setup/config";
 
 import { SubPageLayout } from "./layouts/SubPageLayout";
 
-function Button(props: {
-  className: string;
-  onClick?: () => void;
-  children: React.ReactNode;
-  disabled?: boolean;
-}) {
-  return (
-    <button
-      className={classNames(
-        "font-bold rounded h-10 w-40 scale-90 hover:scale-95 transition-all duration-200",
-        props.className,
-      )}
-      type="button"
-      onClick={props.onClick}
-      disabled={props.disabled}
-    >
-      {props.children}
-    </button>
-  );
-}
-
 // From about just removed the numbers
 export function Ol(props: { items: React.ReactNode[] }) {
   return (
