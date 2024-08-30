@@ -21,7 +21,7 @@ export function DonatePage() {
     <SubPageLayout>
       <PageTitle subpage k="global.pages.dmca" />
       <ThinContainer>
-        <Heading1>{t("screens.dmca.title")}</Heading1>
+        <Heading1>Donate</Heading1>
         <Paragraph>
           <Trans
             i18nKey="screens.dmca.text"

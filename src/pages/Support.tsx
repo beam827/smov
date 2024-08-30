@@ -75,12 +75,7 @@ export function SupportPage() {
           items={[
             <Item title={t("support.q1.title")}>
               <Trans i18nKey="support.q1.body">
-                <MwLink to="https://docs.undi.rest/links/discord" />
-              </Trans>
-            </Item>,
-            <Item title={t("support.q2.title")}>
-              <Trans i18nKey="support.q2.body">
-                <MwLink to="https://github.com/sussy-code/smov" />
+                <MwLink to="https://discord.gg/HJP7Cx8qha" />
               </Trans>
             </Item>,
           ]}
@@ -88,7 +83,7 @@ export function SupportPage() {
         <Paragraph className="flex space-x-3 items-center">
           <Icon icon={Icons.MAIL} />
           <a
-            href={`mailto:${conf().DMCA_EMAIL}`}
+            href={`mailto:support@reelo.to`}
             style={{
               transition: "color 0.3s ease",
               color: isHovered ? "#cfcfcf" : "inherit",
@@ -96,7 +91,7 @@ export function SupportPage() {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            {conf().DMCA_EMAIL ?? ""}
+            support@reelo.to
           </a>
         </Paragraph>
       </ThinContainer>
