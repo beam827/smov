@@ -91,16 +91,7 @@ export function SupportPage() {
               bold: <span className="font-bold" style={{ color: "#cfcfcf" }} />,
             }}
           />
-          <div className="pt-6">
-            <Button
-              className="py px-4 box-content bg-buttons-secondary hover:bg-buttons-secondaryHover bg-opacity-90 text-buttons-secondaryText justify-center items-center inline-block"
-              onClick={() =>
-                window.open("https://sussy-code.github.io/docs", "_blank")
-              }
-            >
-              Sudo-Flix Docs
-            </Button>
-          </div>
+          <div className="pt-3"></div>
         </Paragraph>
         <Ol
           items={[

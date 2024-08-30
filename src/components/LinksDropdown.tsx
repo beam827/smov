@@ -135,19 +135,22 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               {decryptData(deviceName, bufferSeed)}
             </DropdownLink>
           ) : (
-            <DropdownLink href="/login" icon={Icons.RISING_STAR} highlight>
+            <DropdownLink href="/login" icon={Icons.CLOUD} highlight>
               {t("navigation.menu.register")}
             </DropdownLink>
           )}
           <Divider />
+          <DropdownLink href="/discover" icon={Icons.RISING_STAR}>
+            {t("navigation.menu.discover")}
+          </DropdownLink>
           <DropdownLink href="/settings" icon={Icons.SETTINGS}>
             {t("navigation.menu.settings")}
           </DropdownLink>
           <DropdownLink href="/about" icon={Icons.CIRCLE_QUESTION}>
             {t("navigation.menu.about")}
           </DropdownLink>
-          <DropdownLink href="/discover" icon={Icons.RISING_STAR}>
-            {t("navigation.menu.discover")}
+          <DropdownLink href="/about" icon={Icons.DONATE}>
+            {t("navigation.menu.donate")}
           </DropdownLink>
           {deviceName ? (
             <DropdownLink
