@@ -1,6 +1,5 @@
 import classNames from "classnames";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 
 import { ThinContainer } from "@/components/layout/ThinContainer";
 import { Ol } from "@/components/utils/Ol";

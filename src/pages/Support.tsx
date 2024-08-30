@@ -70,7 +70,6 @@ export function SupportPage() {
               bold: <span className="font-bold" style={{ color: "#cfcfcf" }} />,
             }}
           />
-          <div className="pt-3"></div>
         </Paragraph>
         <Ol
           items={[
