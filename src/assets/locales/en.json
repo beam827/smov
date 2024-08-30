@@ -172,8 +172,7 @@
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["The Godfather is a classic!"],
-        "extra": ["The Office is always a good choice!"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["The Office is always a good choice!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
