@@ -138,12 +138,10 @@
         "default": "What do you want to watch?",
         "extra": [
           "What are you in the mood for?",
-          "Should we delete your browser history?",
           "What do you want to stream?",
           "reelo is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
-          "My bad the site never works...",
           "Isn't reelo just the best?"
         ]
       },
@@ -163,22 +161,15 @@
     "titles": {
       "day": {
         "default": "What would you like to watch this afternoon?",
-        "extra": ["Have you seen Blazing Saddles?"],
         "extra": ["Welcome to reelo!"],
-        "extra": ["Viva la reelo!"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
-        "extra": ["I hear The Expanse is popular"],
-        "extra": ["Viva la reelo!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
-        "extra": ["Go smoke and watch The Simpsons!"],
-        "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la reelo!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
