@@ -1,4 +1,3 @@
-{/*
 import ar from "@/assets/locales/ar.json";
 import bg from "@/assets/locales/bg.json";
 import bn from "@/assets/locales/bn.json";
@@ -46,12 +45,10 @@ import uwu from "@/assets/locales/uwu.json";
 import vi from "@/assets/locales/vi.json";
 import zhhant from "@/assets/locales/zh-Hant.json";
 import zh from "@/assets/locales/zh.json";
-*/}
 import en from "@/assets/locales/en.json";
 
 export const locales = {
   en,
-  {/*
   ca,
   "ca-ES": caVl,
   cs,
@@ -99,7 +96,6 @@ export const locales = {
   ro,
   fi,
   nv,
-*/}
 };
 
 export type Locales = keyof typeof locales;
