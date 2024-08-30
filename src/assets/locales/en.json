@@ -165,11 +165,15 @@
       },
       "morning": {
         "default": "What would you like to watch this morning?",
-        "extra": ["Can't go wrong with Friends"]
+        "extra": ["Can't go wrong with Friends"],
+        "extra": ["I hear The Expanse is popular"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
-        "extra": ["Rick & Morty is great with friends!"]
+        "extra": ["Rick & Morty is great with friends!"],
+        "extra": ["The Godfather is a classic!"],
+        "extra": ["The Office is always a good choice!"],
+        "extra": ["Viva la sudo-flix!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",

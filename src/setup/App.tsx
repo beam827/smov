@@ -174,7 +174,7 @@ function App() {
           {process.env.NODE_ENV === "development" ? (
             <Route path="/dev/test" element={<TestView />} />
           ) : null}
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path="/*" element={<NotFoundPage />} />
         </Routes>
       )}
       {showDowntime && (
