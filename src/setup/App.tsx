@@ -141,7 +141,7 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/donate" component={<DonatePage />} />
+          <Route path="/donate" element={<DonatePage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route
             path="/onboarding/extension"
