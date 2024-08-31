@@ -479,7 +479,7 @@
     "title": "Donate",
     "text": "Your donation helps us keep Reelo ad-free while enhancing your movie experience. Thank you for your support!",
     "q1": {
-      "body": "You can donate<0>here</0>",
+      "body": "You can donate <0>here</0>",
       "title": "Crypto"
     }
   },
