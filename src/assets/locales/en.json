@@ -109,6 +109,7 @@
     "pages": {
       "about": "About",
       "dmca": "DMCA",
+      "donate": "Donate",
       "discover": "Discover",
       "support": "Support",
       "login": "Login",
@@ -474,16 +475,12 @@
       "title": "Where can I get help?"
     }
   },
-  "jip": {
-    "title": "Jip",
-    "text": "reelo didn't fall out of a coconut tree, it was made mostly by a single person (a very epic one at that).",
+  "donate": {
+    "title": "Donate",
+    "text": "Your donation helps us keep Reelo ad-free while enhancing your movie experience. Thank you for your support!",
     "q1": {
       "body": "Well, you can join the official <0>reelo discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
-    },
-    "q2": {
-      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
-      "title": "How can I report a bug or issue?"
     }
   },
   "screens": {
