@@ -70,7 +70,7 @@ export function DonatePage() {
           items={[
             <Item title={t("donate.q1.title")}>
               <Trans i18nKey="donate.q1.body">
-                <MwLink to="https://discord.gg/HJP7Cx8qha" />
+                <MwLink to="https://oxapay.com/donate/65664124" />
               </Trans>
             </Item>,
           ]}
