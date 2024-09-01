@@ -8,6 +8,7 @@ export interface PreferencesStore {
   enableAutoplay: boolean;
   sourceOrder: string[];
 
+  setEnableAds(v: boolean): void;
   setEnableThumbnails(v: boolean): void;
   setEnableAutoplay(v: boolean): void;
   setSourceOrder(v: string[]): void;
