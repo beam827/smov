@@ -1,0 +1,7 @@
+
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Reelo</ShortName>
+  <Description>Watch your favorite shows and movies for free without any subscription!  Dive into endless hours of free streaming entertainment world of movies and TV shows.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" template="https://reelo.to/browse/{searchTerms}" />
+</OpenSearchDescription>

@@ -102,10 +102,10 @@
       "github": "GitHub",
       "twitter": "Twitter"
     },
-    "tagline": "Watch your favorite shows and movies for free with no ads ever!"
+    "tagline": "Watch your favorite shows and movies for free without any subscription!"
   },
   "global": {
-    "name": "reelo",
+    "name": "Reelo | Stream Your Favorite Movies & TV Shows",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -114,7 +114,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - reelo",
+      "pagetitle": "{{title}} - Reelo",
       "register": "Register",
       "settings": "Settings",
       "jip": "Jip"
