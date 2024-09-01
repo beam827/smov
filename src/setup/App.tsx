@@ -17,10 +17,10 @@ import { AdminPage } from "@/pages/admin/AdminPage";
 import VideoTesterView from "@/pages/developer/VideoTesterView";
 import { Discover } from "@/pages/Discover";
 import { DmcaPage, shouldHaveDmcaPage } from "@/pages/Dmca";
-import { DonatePage } from "@/pages/Donate";
 import MaintenancePage from "@/pages/errors/MaintenancePage";
 import { NotFoundPage } from "@/pages/errors/NotFoundPage";
 import { HomePage } from "@/pages/HomePage";
+import { JipPage } from "@/pages/Jip";
 import { LoginPage } from "@/pages/Login";
 import { OnboardingPage } from "@/pages/onboarding/Onboarding";
 import { OnboardingExtensionPage } from "@/pages/onboarding/OnboardingExtension";
@@ -140,7 +140,6 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/donate" element={<DonatePage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route
             path="/onboarding/extension"
@@ -152,6 +151,7 @@ function App() {
           ) : null}
           {/* Support page */}
           <Route path="/support" element={<SupportPage />} />
+          <Route path="/jip" element={<JipPage />} />
           {/* Discover page */}
           <Route path="/discover" element={<Discover />} />
           {/* Settings page */}
@@ -172,7 +172,7 @@ function App() {
           {process.env.NODE_ENV === "development" ? (
             <Route path="/dev/test" element={<TestView />} />
           ) : null}
-          <Route path="/*" element={<NotFoundPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       )}
       {showDowntime && (

@@ -16,6 +16,11 @@ interface ProxyEditProps {
   setProxyUrls: Dispatch<SetStateAction<string[] | null>>;
 }
 
+interface BackendEditProps {
+  backendUrl: string | null;
+  setBackendUrl: Dispatch<SetStateAction<string | null>>;
+}
+
 function ProxyEdit({ proxyUrls, setProxyUrls }: ProxyEditProps) {
   const { t } = useTranslation();
   const add = useCallback(() => {
@@ -50,8 +55,8 @@ function ProxyEdit({ proxyUrls, setProxyUrls }: ProxyEditProps) {
           </p>
           <p className="max-w-[20rem] font-medium">
             <Trans i18nKey="settings.connections.workers.description">
-              <MwLink to="https://www.varonis.com/blog/what-is-a-proxy-server">
-                Proxy
+              <MwLink to="https://sussy-code.github.io/docs/proxy/deploy">
+                Proxy documentation
               </MwLink>
             </Trans>
           </p>
@@ -109,7 +114,44 @@ function ProxyEdit({ proxyUrls, setProxyUrls }: ProxyEditProps) {
   );
 }
 
-export function ConnectionsPart(props: ProxyEditProps) {
+function BackendEdit({ backendUrl, setBackendUrl }: BackendEditProps) {
+  const { t } = useTranslation();
+  return (
+    <SettingsCard>
+      <div className="flex justify-between items-center gap-4">
+        <div className="my-3">
+          <p className="text-white font-bold mb-3">
+            {t("settings.connections.server.label")}
+          </p>
+          <p className="max-w-[20rem] font-medium">
+            <Trans i18nKey="settings.connections.server.description">
+              <MwLink to="https://sussy-code.github.io/docs/backend/deploy">
+                Backend documentation
+              </MwLink>
+            </Trans>
+          </p>
+        </div>
+        <div>
+          <Toggle
+            onClick={() => setBackendUrl((s) => (s === null ? "" : null))}
+            enabled={backendUrl !== null}
+          />
+        </div>
+      </div>
+      {backendUrl !== null ? (
+        <>
+          <Divider marginClass="my-6 px-8 box-content -mx-8" />
+          <p className="text-white font-bold mb-3">
+            {t("settings.connections.server.urlLabel")}
+          </p>
+          <AuthInputBox onChange={setBackendUrl} value={backendUrl ?? ""} />
+        </>
+      ) : null}
+    </SettingsCard>
+  );
+}
+
+export function ConnectionsPart(props: BackendEditProps & ProxyEditProps) {
   const { t } = useTranslation();
   return (
     <div>
@@ -119,6 +161,10 @@ export function ConnectionsPart(props: ProxyEditProps) {
         <ProxyEdit
           proxyUrls={props.proxyUrls}
           setProxyUrls={props.setProxyUrls}
+        />
+        <BackendEdit
+          backendUrl={props.backendUrl}
+          setBackendUrl={props.setBackendUrl}
         />
       </div>
     </div>

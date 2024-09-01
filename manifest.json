@@ -1,12 +1,12 @@
 {
-  "name": "Reelo | Stream Your Favorite Movies & TV Shows",
-  "short_name": "reelo",
+  "name": "sudo-flix",
+  "short_name": "sudo-flix",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#120f1d",
   "lang": "en",
   "scope": "/",
-  "description": "Dive into endless hours of free streaming entertainment with Reelo! Join the binge-watching revolution and explore a world of movies and TV shows—all without a subscription.",
+  "description": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
   "theme_color": "#120f1d",
   "icons": [
     {

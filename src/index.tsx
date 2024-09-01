@@ -30,7 +30,6 @@ import { ProgressSyncer } from "@/stores/progress/ProgressSyncer";
 import { SettingsSyncer } from "@/stores/subtitles/SettingsSyncer";
 import { ThemeProvider } from "@/stores/theme";
 
-import { AdsWrapper } from "./AdsWrapper";
 import {
   extensionInfo,
   isExtensionActiveCached,
@@ -184,9 +183,7 @@ root.render(
             <BookmarkSyncer />
             <SettingsSyncer />
             <TheRouter>
-              <AdsWrapper>
-                <MigrationRunner />
-              </AdsWrapper>
+              <MigrationRunner />
             </TheRouter>
           </ThemeProvider>
         </Suspense>

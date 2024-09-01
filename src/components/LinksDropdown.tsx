@@ -135,22 +135,19 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               {decryptData(deviceName, bufferSeed)}
             </DropdownLink>
           ) : (
-            <DropdownLink href="/login" icon={Icons.CLOUD} highlight>
+            <DropdownLink href="/login" icon={Icons.RISING_STAR} highlight>
               {t("navigation.menu.register")}
             </DropdownLink>
           )}
           <Divider />
-          <DropdownLink href="/discover" icon={Icons.RISING_STAR}>
-            {t("navigation.menu.discover")}
-          </DropdownLink>
           <DropdownLink href="/settings" icon={Icons.SETTINGS}>
             {t("navigation.menu.settings")}
           </DropdownLink>
           <DropdownLink href="/about" icon={Icons.CIRCLE_QUESTION}>
             {t("navigation.menu.about")}
           </DropdownLink>
-          <DropdownLink href="/donate" icon={Icons.DONATE}>
-            {t("navigation.menu.donate")}
+          <DropdownLink href="/discover" icon={Icons.RISING_STAR}>
+            {t("navigation.menu.discover")}
           </DropdownLink>
           {deviceName ? (
             <DropdownLink
@@ -167,6 +164,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               href={conf().DISCORD_LINK}
               icon={Icons.DISCORD}
             />
+            <CircleDropdownLink href={conf().GITHUB_LINK} icon={Icons.GITHUB} />
             <CircleDropdownLink
               href={conf().TWITTER_LINK}
               icon={Icons.TWITTER}

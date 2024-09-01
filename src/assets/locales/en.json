@@ -1,13 +1,13 @@
 {
   "about": {
-    "description": "Welcome to reelo.to, your ultimate destination for unlimited streaming of movies and TV shows. Explore our extensive library of classics and new releases, available on any device. Enjoy our service 100% subscription-free and 100% ad-free. Dive in and join the binge today!",
-    "faqTitle": "Frequently Asked Questions",
+    "description": "sudo-flix is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. sudo-flix.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "faqTitle": "Common questions",
     "q1": {
-      "body": "Reelo does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by reelo, everything is through this searching mechanism.",
+      "body": "sudo-flix does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by sudo-flix, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, reelo does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, sudo-flix does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
@@ -15,25 +15,21 @@
       "title": "The search results display the show or movie, why can't I play it?"
     },
     "q4": {
-      "body": "There is no limit to how much you can watch on reelo. Stream as much as you want, anytime, without any restrictions or additional costs.",
-      "title": "Is there a limit to how much I can watch?"
+      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by me, anyone is free to use this as well.",
+      "title": "What about my data and stuff?"
     },
     "q5": {
-      "body": "New content availability is based on the sources connected to our platform. As these sources update their libraries, new movies and TV shows will become accessible through reelo.",
-      "title": "How often is new content added to reelo?"
+      "body": "Well sudo-flix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+      "title": "How can I find out more?"
     },
-    "q6": {
-      "body": "Availability of subtitles or dubbed versions depends on the source. Some sources may provide options for subtitles in various languages or dubbed content, which can be selected directly within the video player if available.",
-      "title": "Does reelo offer subtitles or dubbed content?"
-    },
-    "title": "About Reelo"
+    "title": "About sudo-flix (^▽^)"
   },
   "actions": {
     "copied": "Copied",
     "copy": "Copy"
   },
   "auth": {
-    "createAccount": "Don't have an account yet? <0>Create an account.</0>",
+    "createAccount": "Don't have an account yet 😬 <0>Create an account.</0>",
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
@@ -93,8 +89,8 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "Disclaimer",
-      "disclaimerText": "Please note: reelo does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
+      "disclaimerText": "Please note: sudo-flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
       "discord": "Discord",
@@ -102,19 +98,18 @@
       "github": "GitHub",
       "twitter": "Twitter"
     },
-    "tagline": "Watch your favorite shows and movies for free without any subscription!"
+    "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
   },
   "global": {
-    "name": "reelo",
+    "name": "sudo-flix",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
-      "donate": "Donate",
       "discover": "Discover",
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - Reelo",
+      "pagetitle": "{{title}} - sudo-flix",
       "register": "Register",
       "settings": "Settings",
       "jip": "Jip"
@@ -139,11 +134,14 @@
         "default": "What do you want to watch?",
         "extra": [
           "What are you in the mood for?",
+          "Should we delete your browser history?",
           "What do you want to stream?",
-          "reelo is the best site ever!",
+          "Sudo-Flix is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
-          "Isn't reelo just the best?"
+          "My bad the site never works...",
+          "Isn't sudo-flix just the best?",
+          ">ᴗ<"
         ]
       },
       "empty": {
@@ -162,18 +160,24 @@
     "titles": {
       "day": {
         "default": "What would you like to watch this afternoon?",
-        "extra": ["Welcome to reelo!"]
+        "extra": ["Have you seen Blazing Saddles?"],
+        "extra": ["Welcome to Sudo-Flix!"],
+        "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
+        "extra": ["Viva la sudo-flix!"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
-        "extra": ["I hear The Expanse is popular"]
+        "extra": ["I hear The Expanse is popular"],
+        "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
+        "extra": ["Viva la sudo-flix!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
-        "extra": ["The Godfather is a classic!"],
-        "extra": ["The Office is always a good choice!"]
+        "extra": ["Go smoke and watch The Simpsons!"],
+        "extra": ["(づ ᴗ _ᴗ)づ♡"],
+        "extra": ["Viva la sudo-flix!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
@@ -195,29 +199,28 @@
   },
   "navigation": {
     "banner": {
-      "offline": "Check your internet connection, silly goose! "
+      "offline": "Check your internet connection, silly goose! 🦢"
     },
     "menu": {
       "about": "About us",
       "logout": "Log out",
-      "register": "Sync to cloud",
+      "register": "Sync to sudo-cloud",
       "settings": "Settings",
       "support": "Support",
-      "discover": "Discover",
-      "donate": "Donate"
+      "discover": "Discover"
     }
   },
   "notFound": {
     "badge": "Not found",
     "goHome": "Back to home",
     "reloadButton": "Try again",
-    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for.",
+    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for. (ಥ﹏ಥ)",
     "title": "Couldn't find that page"
   },
   "downtimeNotice": {
     "badge": "Issues",
     "goHome": "Go home",
-    "message": "reelo.to is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "message": "sudo-flix.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
     "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
     "title": "Provider issues"
   },
@@ -225,7 +228,7 @@
     "defaultConfirm": {
       "cancel": "Cancel",
       "confirm": "Use default setup",
-      "description": "The default setup does not have the best streams and can be unbearably slow.",
+      "description": "The default setup does not have the best streams and can be unbearably slow. ( ͠° ͟ʖ ͡°)",
       "title": "Are you sure?"
     },
     "extension": {
@@ -238,7 +241,7 @@
       "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
       "notDetectingAction": "Reload page",
       "status": {
-        "disallowed": "Extension is not enabled for this page",
+        "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
         "disallowedAction": "Enable extension",
         "failed": "Failed to request status",
         "loading": "Waiting for you to install the extension",
@@ -266,7 +269,7 @@
       "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
       "options": {
         "default": {
-          "text": "I don't want good quality streams,<0 /> <1>use the default setup</1>"
+          "text": "I don't want good quality streams,<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
         },
         "extension": {
           "action": "Install extension",
@@ -281,7 +284,7 @@
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with reelo 🥳"
+      "title": "Let's get you setup with sudo-flix 🥳"
     }
   },
   "overlays": {
@@ -297,11 +300,11 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. reelo does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "hlsDisclaimer": "Downloads are taken directly from the provider. reelo does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -321,7 +324,7 @@
       },
       "episodes": {
         "button": "Episodes",
-        "emptyState": "There are no episodes in this season, check back later...",
+        "emptyState": "There are no episodes in this season, check back later (sorry :3)...",
         "episodeBadge": "E{{episode}}",
         "loadingError": "Error loading season",
         "loadingList": "Loading...",
@@ -360,7 +363,7 @@
           "title": "No embeds found"
         },
         "noStream": {
-          "text": "This source has no streams for this movie or show.",
+          "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
           "title": "No stream :("
         },
         "title": "Sources",
@@ -379,7 +382,7 @@
         },
         "title": "Subtitles",
         "unknownLanguage": "Unknown",
-        "dropSubtitleFile": "Drop subtitle file here!",
+        "dropSubtitleFile": "Drop subtitle file here! >_<",
         "scrapeButton": "Scrape subtitles",
         "empty": "There are no provided subtitles for this.",
         "notFound": "None of the available options match your query"
@@ -392,13 +395,13 @@
       },
       "dmca": {
         "badge": "Removed",
-        "text": "This media is no longer available due to a takedown notice or copyright claim.",
+        "text": "This media is no longer available due to a takedown notice or copyright claim. 😨",
         "title": "Media has been removed"
       },
       "extensionPermission": {
         "badge": "Permission Missing",
         "button": "Use extension",
-        "text": "You have the browser extension, but we need your permission to get started using the extension.",
+        "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
         "title": "Configure the extension"
       },
       "failed": {
@@ -429,13 +432,13 @@
         "errorNotSupported": "The media or media provider object is not supported."
       },
       "homeButton": "Go home",
-      "text": "There was an error trying to play the media. Please try again!",
+      "text": "There was an error trying to play the media 😖. Please try again!",
       "title": "Failed to play video!"
     },
     "scraping": {
       "items": {
         "failure": "Error occurred",
-        "notFound": "Doesn't have the video",
+        "notFound": "Doesn't have the video (╥﹏╥)",
         "pending": "Checking for videos..."
       },
       "notFound": {
@@ -451,7 +454,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the reelo extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the sudo-flix extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -461,32 +464,40 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the quick challenge, this is to keep reelo safe.",
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep sudo-flix safe.",
       "error": "Failed to verify your humanity! Please try again.",
-      "title": "Are You a Robot?",
-      "verifyingHumanity": "Verifying your humanity..."
+      "title": "Are You a Robot 🤖?",
+      "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
     }
   },
   "support": {
     "title": "Support",
-    "text": "Reelo is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "text": "sudo-flix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
-      "body": "Well, you can join the official <0>reelo discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "Well, you can join the official <0>sudo-flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
+    },
+    "q2": {
+      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
+      "title": "How can I report a bug or issue?"
     }
   },
-  "donate": {
-    "title": "Donate",
-    "text": "Your donation helps us keep Reelo ad-free while enhancing your movie experience. Thank you for your support!",
+  "jip": {
+    "title": "Jip",
+    "text": "sudo-flix didn't fall out of a coconut tree, it was made mostly by a single person (a very epic one at that).",
     "q1": {
-      "body": "You can donate <0>here</0>",
-      "title": "Crypto"
+      "body": "Well, you can join the official <0>sudo-flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "title": "Where can I get help?"
+    },
+    "q2": {
+      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
+      "title": "How can I report a bug or issue?"
     }
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to reelo's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform, please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
-      "title": "DMCA"
+      "text": "Welcome to sudo-flix's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "title": "DMCA :("
     },
     "loadingApp": "Loading application",
     "loadingUser": "Loading your profile",
@@ -498,7 +509,7 @@
       "textWithReset": "Failed to load your profile from your custom server, want to reset back to the default server?"
     },
     "migration": {
-      "failed": "Failed to migrate your data.",
+      "failed": "Failed to migrate your data. 😿",
       "inProgress": "Please hold, we are migrating your data. This shouldn't take long..."
     }
   },
@@ -512,14 +523,14 @@
       },
       "admin": {
         "title": "Admin panel",
-        "text": "Utilize tools made for testing reelo's condition.",
+        "text": "Utilize tools made for testing sudo-flix's condition.",
         "button": "Check it out"
       },
       "actions": {
         "delete": {
           "button": "Delete account",
           "confirmButton": "Delete account",
-          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost!",
+          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost! ૮₍˶Ó﹏Ò ⑅₎ა",
           "confirmTitle": "Are you sure?",
           "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
           "title": "Delete account"
@@ -541,8 +552,8 @@
       },
       "register": {
         "cta": "Get started",
-        "text": "Share your watch progress between devices and keep them synced.",
-        "title": "Sync to the cloud"
+        "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
+        "title": "Sync to the sudo-cloud"
       },
       "title": "Account"
     },
@@ -570,7 +581,7 @@
           "description": "It seems that one or more items in this setup need your attention.",
           "title": "Something needs your attention 😱"
         },
-        "itemError": "There is something wrong with this setting. Go through setup again to fix it.",
+        "itemError": "There is something wrong with this setting. Go through setup again to fix it. (ᴗ_ ᴗ。)",
         "items": {
           "default": "Default setup",
           "extension": "Extension",
@@ -578,7 +589,7 @@
         },
         "redoSetup": "Redo setup",
         "successStatus": {
-          "description": "All things are in place for you to start watching your favorite media.",
+          "description": "All things are in place for you to start watching your favorite media. (๑>◡<๑)",
           "title": "Everything is set up!"
         },
         "unsetStatus": {
@@ -589,8 +600,8 @@
       "title": "Connections",
       "workers": {
         "addButton": "Add new worker",
-        "description": "To make the application function, all traffic is routed through proxies. Enable this if you want to bring your own workers.",
-        "emptyState": "No workers yet, add one below",
+        "description": "To make the application function, all traffic is routed through proxies. Enable this if you want to bring your own workers. <0>Instructions.</0>",
+        "emptyState": "No workers yet (｡•́︿•̀｡), add one below",
         "label": "Use custom proxy workers",
         "urlLabel": "Worker URLs",
         "urlPlaceholder": "https://"
@@ -598,15 +609,12 @@
     },
     "preferences": {
       "language": "Application language",
-      "languageDescription": "Language applied to the entire application.",
-      "ads": "Enable Ads",
-      "adsDescription": "Ads help support the platform and keep it free for everyone. Disabling this will remove all ads.",
-      "adsLabel": "Enable Ads",
+      "languageDescription": "Language applied to the entire application, only English has silly stuff 🙁.",
       "thumbnail": "Generate thumbnails",
       "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they can make your video slower.",
       "thumbnailLabel": "Generate thumbnails",
       "autoplay": "Autoplay",
-      "autoplayDescription": "Automatically play the next episode in a series after reaching the end. Can be enabled by users with the a custom proxy, or with the default setup if allowed by the host.",
+      "autoplayDescription": "Automatically play the next episode in a series after reaching the end. Can be enabled by users with the browser extension, a custom proxy, or with the default setup if allowed by the host.",
       "autoplayLabel": "Autoplay",
       "sourceOrder": "Reordering sources",
       "sourceOrderDescription": "Drag and drop to reorder sources. This will determine the order in which sources are checked for the media you are trying to watch. If a source is greyed out, it means it is not available on your device.",
@@ -623,7 +631,7 @@
         "insecure": "Insecure",
         "notLoggedIn": "You are not logged in",
         "secure": "Secure",
-        "title": "App stats",
+        "title": "App stats (for nerds) 🤓",
         "unknownVersion": "Unknown",
         "userId": "User ID"
       }
@@ -632,11 +640,11 @@
       "backgroundLabel": "Background opacity",
       "backgroundBlurLabel": "Background blur",
       "colorLabel": "Color",
-      "previewQuote": "Can you see this?",
+      "previewQuote": "Would you rather have a thot daughter or a gay son? 🤔",
       "textSizeLabel": "Text size",
       "title": "Subtitles",
       "textBoldLabel": "Bold text"
     },
-    "unsaved": "You have unsaved changes..."
+    "unsaved": "You have unsaved changes... ฅ^•ﻌ•^ฅ"
   }
 }
