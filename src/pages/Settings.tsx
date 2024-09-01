@@ -316,8 +316,6 @@ export function SettingsPage() {
         </div>
         <div id="settings-connection" className="mt-48">
           <ConnectionsPart
-            backendUrl={state.backendUrl.state}
-            setBackendUrl={state.backendUrl.set}
             proxyUrls={state.proxyUrls.state}
             setProxyUrls={state.proxyUrls.set}
           />

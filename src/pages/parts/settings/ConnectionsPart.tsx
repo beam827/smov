@@ -16,11 +16,6 @@ interface ProxyEditProps {
   setProxyUrls: Dispatch<SetStateAction<string[] | null>>;
 }
 
-interface BackendEditProps {
-  backendUrl: string | null;
-  setBackendUrl: Dispatch<SetStateAction<string | null>>;
-}
-
 function ProxyEdit({ proxyUrls, setProxyUrls }: ProxyEditProps) {
   const { t } = useTranslation();
   const add = useCallback(() => {
@@ -114,7 +109,7 @@ function ProxyEdit({ proxyUrls, setProxyUrls }: ProxyEditProps) {
   );
 }
 
-export function ConnectionsPart(props: BackendEditProps & ProxyEditProps) {
+export function ConnectionsPart(props: ProxyEditProps) {
   const { t } = useTranslation();
   return (
     <div>
