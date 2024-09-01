@@ -27,7 +27,7 @@ function CaptchaProvider(props: {
 
 export function RegisterPage() {
   const navigate = useNavigate();
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(1);
   const [mnemonic, setMnemonic] = useState<null | string>(null);
   const [account, setAccount] = useState<null | AccountProfile>(null);
   const [siteKey, setSiteKey] = useState<string | null>(null);

@@ -33,7 +33,7 @@
     "copy": "Copy"
   },
   "auth": {
-    "createAccount": "Don't have an account yet?<0>Create an account.</0>",
+    "createAccount": "Don't have an account yet? <0>Create an account.</0>",
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
