@@ -24,7 +24,6 @@ import { useSettingsState } from "@/hooks/useSettingsState";
 import { AccountActionsPart } from "@/pages/parts/settings/AccountActionsPart";
 import { AccountEditPart } from "@/pages/parts/settings/AccountEditPart";
 import { CaptionsPart } from "@/pages/parts/settings/CaptionsPart";
-import { ConnectionsPart } from "@/pages/parts/settings/ConnectionsPart";
 import { DeviceListPart } from "@/pages/parts/settings/DeviceListPart";
 import { RegisterCalloutPart } from "@/pages/parts/settings/RegisterCalloutPart";
 import { SidebarPart } from "@/pages/parts/settings/SidebarPart";
@@ -312,14 +311,6 @@ export function SettingsPage() {
           <CaptionsPart
             styling={state.subtitleStyling.state}
             setStyling={state.subtitleStyling.set}
-          />
-        </div>
-        <div id="settings-connection" className="mt-48">
-          <ConnectionsPart
-            backendUrl={state.backendUrl.state}
-            setBackendUrl={state.backendUrl.set}
-            proxyUrls={state.proxyUrls.state}
-            setProxyUrls={state.proxyUrls.set}
           />
         </div>
       </SettingsLayout>
